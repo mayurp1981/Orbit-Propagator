@@ -1,6 +1,4 @@
-# Orbit-Propagator
-
-High-Fidelity Orbit Propagator
+# High-Fidelity Orbit Propagator
 
 **Google Colab link:** https://colab.research.google.com/drive/1iu7aJ5WrMlWwt37sbKtfiqxWXo2xtjfY?usp=sharing
 
@@ -10,7 +8,7 @@ The orbital prediction code is developed based on Cowell's formulation, consider
 
 Cowell's formulation is chosen for its accuracy and computational efficiency in addressing these perturbations within the two-body problem. The formulation incorporates additional parameters, such as the satellite's ballistic coefficient, determined by mass, area, and atmospheric density, crucial for precision in orbit predictions. Emphasizing the importance of accurate initial Keplerian elements, the code ensures that deviations from these elements are minimized to maintain prediction accuracy. This high-fidelity modeling approach aims to provide precise and reliable predictions by accounting for a comprehensive set of perturbing effects in the satellite's orbital dynamics.
 
-Estimation of the Sun vector is based on first principles[1], while estimation of the moon is done using `spicypy` library. Atmospheric density is modelled using `pynrlmsise00`.
+Estimation of the Sun vector is based on first principles, while estimation of the moon is done using `spicypy` library. Atmospheric density is modelled using `pynrlmsise00`.
 
 **Input:**
 Classical Orbital Elements
